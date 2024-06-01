@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Oswald", sans-serif;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 10px;
+    color: #122C35;
+}
+.container{
+    max-width: 1220px;
+    padding: 0px 20px;
+    margin: 0 auto;
+}
+/* home page css start */
+/* header css start  */
+header{
+    background-color: #000;
+}
+header .main_column{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+header .main_column .logo_column .logo img{
+    width: 15%;
+}
+header .main_column .menu_bar ul{
+    list-style: none;
+
+}
+header .main_column .menu_bar ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+header .main_column .menu_bar ul li a{
+    text-decoration: none;
+    color: #1ca362;
+    text-transform: capitalize;
+    transition: all .3s;
+}
+header .main_column .menu_bar ul li a:hover{
+    color: #fff;
+}
+/* header css end  */
+/* banner section css start  */
+.banner_section .banner_image img{
+    width: 100%;
+}
+/* banner section css end  */
+/* foood section css start  */
+.food_section{
+    padding-top: 50px;
+}
+.food_section .food_iteam{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+}
+.food_section .food_iteam .iteam .image_title img{
+    width: 100%;
+    border-radius: 5px;
+}
+.food_section .food_iteam .iteam .image_title h3{
+    padding: 5px 0px 8px 0px;
+    color: #1ca362;
+}
+.food_section .food_iteam .iteam .price_order{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+}
+.food_section .food_iteam .iteam .price_order strong{
+    color: #1ca362;
+}
+.food_section .food_iteam .iteam .price_order a{
+    text-decoration: none;
+    padding: 5px;
+    border: 2px solid #1ca362;
+    border-radius: 5px;
+    color: orange;
+    transition: all .3s;
+    cursor: pointer;
+}
+.food_section .food_iteam .iteam .price_order a:hover{
+    color: #1ca362;
+    background-color: orange;
+}
+/* food section section css end  */
+/* feedback section css start  */
+.feedback_section{
+    padding-top: 50px;
+}
+.feedback_section{
+    padding-top: 50px;
+    /* padding-bottom: 80px; */
+}
+.feedback_section h2{
+    font-size: 32px;
+    font-weight: 600;
+    color: #122C35;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.feedback_section img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #1ca362;
+    padding: 5px;
+    background: #DDD;
+}
+.feedback_section .title{
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+}
+.feedback_section .main_column{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 25px;
+}
+.feedback_section .flex_column {
+    background:  #d1cece;
+    padding: 15px;
+    border-radius: 10px;
+}
+.feedback_section h3{
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    color: #1ca362;
+    cursor: pointer;
+}
+.feedback_section P{
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    padding-top: 15px;
+    line-height: 22px;
+}
+.feedback_section a {
+    text-decoration: none;
+    color: #1ca362;
+    display: inline-block;
+    padding-top: 11px;
+    font-size: 15px;
+    transition: .4s ease;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 2px;
+}
+.feedback_section a:hover{
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+/* feedback section css end  */
+/* gallery section css start  */
+.galler_section {
+    padding-top: 50px;
+}
+.galler_section .main_column{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+.galler_section .main_column .iteam img{
+    width: 100%;
+    display: block;
+}
+/* gallery section css end  */
+/* socket section css start  */
+.socket{
+    margin-top: 50px;
+    background-color: #000;
+    text-align: center;
+    padding: 10px;
+    color: #1ca362;
+    margin-top: 50px;
+}
+.socket h6{
+    font-family: "Oswald", sans-serif;
+    padding-top: 10px;
+    font-size: 16px;
+    color: #fff;
+}
+.socket a{
+    text-decoration: none;
+    color: orange;
+}
+/* socket css end  */
+/* home page css end  */
+
+/* about page css start  */
+/* staff section css end  */
+.staff_section {
+    margin-top: 50px;
+}
+.staff_section img {
+    width: 80%;
+    border-radius: 50%;
+}
+.staff_section h3{
+    font-size: 17px;
+    font-weight: 700;
+    color: gray;
+    text-align: center;
+}
+.staff_section p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    padding-top: 15px;
+    line-height: 22px;
+    text-align: center;
+}
+.staff_section .flex_column{
+    padding: 25px;
+    border: 1px solid #ddd;
+    background: #d1cece;
+    border-radius: 30px 0px 30px 0px ;
+}
+.staff_section .main_column{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 25px;
+}
+.staff_section .main_column .flex_column .staff_image{
+    text-align: center;
+}
+.staff_section span{
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    color: #1ca362;
+    text-align: center;
+    display: inherit;
+    cursor: pointer;
+}
+.staff_section .about_us{
+    display: flex;
+    column-gap: 50px;
+    text-align: center;
+}
+.staff_section .about_us p{
+    color: black;
+    text-align: left;
+}
+.staff_section .about_us span{
+    text-align: left;
+}
+.staff_section .about_us img{
+    width: 80%;
+    border-radius: 0;
+}
+.staff_section .about_us{
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+/* staff section css end  */
+/* about section css start  */
+.about_section{
+    padding-top: 50px;
+}
+.about_section .main_column{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+}
+.about_section .main_column .left_column .about_image img{
+    border-radius: 5px;
+}
+.about_section .main_column .rigth_coulmn .about_content p{
+    padding-bottom: 5px;
+}
+.about_section .main_column .rigth_coulmn .about_content a{
+    text-decoration: none;
+    color: #1ca362;
+    transition: all .3s;
+}
+.about_section .main_column .rigth_coulmn .about_content a:hover{
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+/* about section css end  */
+/* about page css end  */
+
+/* contact page css start  */
+/* contact section css start  */
+.contact{
+    margin: 50px 0px;
+}
+.contact .main_column{
+    display: flex;
+    box-sizing: border-box;
+}
+.contact .main_column h2{
+    text-align: start;
+}
+.contact .main_column .left_column{
+    width: 65%;
+    margin-right: 5%;
+}
+.contact .main_column .left_column input {
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+.contact .main_column .left_column textarea{
+    display: block;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+.contact .main_column .left_column .btn{
+    font-family: "Oswald", sans-serif;
+    width: 20%;
+    background-color: #1ca362;
+    color: orange;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact .main_column .right_column{
+    width: 30%;
+}
+.contact .main_column .right_column .links a{
+    text-decoration: none;
+    color: #1ca362;
+    display: block;
+    margin-bottom: 15px;
+    font-size: 17px;
+}
+/* contact section css end  */
+/* contact page css end  */
+
+/* faq page css start  */
+/* faq section css start  */
+.faq_section{
+    margin-top: 50px;
+}
+.faq_section .collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+.faq_section .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+.faq_section .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+  /* faq section css end  */
+  /* faq page css end  */
